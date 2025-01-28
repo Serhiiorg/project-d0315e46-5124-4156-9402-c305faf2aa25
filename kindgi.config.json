@@ -1,0 +1,15 @@
+{
+  "driver": "pg",
+  "packages": [
+    "stripe",
+    "drizzle",
+    "next-auth",
+    "stripe"
+  ],
+  "preferredPackageManager": "pnpm",
+  "orm": "drizzle",
+  "auth": "next-auth",
+  "alias": "@",
+  "rootPath": "/tmp/starter-project/",
+  "export": false
+}
